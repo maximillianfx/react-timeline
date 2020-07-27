@@ -1,1 +1,3 @@
-# react-timeline
+# React Timeline
+
+React component

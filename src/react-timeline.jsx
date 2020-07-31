@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Point from './subs/point/point.jsx'
+import Point from './components/subs/point/point.jsx'
 import './react-timeline.css'
 
 class ReactTimeline extends Component {

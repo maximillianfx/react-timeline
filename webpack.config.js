@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: './src/index.js',
     output: {
         path: path.resolve('dist'),
@@ -14,7 +14,11 @@ module.exports = {
                 test: /\.jsx?$/,
                 exclude: /(node_modules)/,
                 use: 'babel-loader'
-            }
+            },
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader'],
+              },
         ]
     }
 }

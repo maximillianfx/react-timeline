@@ -1,7 +1,8 @@
 import React from 'react';
+import ReactTimeline from './components/timeline/react-timeline.jsx'
 
 export default props => {
     return(
-        <span>Ola</span>
+        <ReactTimeline list={props.list}/>
     );
 }

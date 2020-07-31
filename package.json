@@ -1,0 +1,51 @@
+{
+  "name": "react-timeline",
+  "version": "1.0.0",
+  "description": "Timeline component to React library",
+  "main": "./dist/ReactTimeline.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "babel src --out-file ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximillianfx/react-timeline.git"
+  },
+  "keywords": [
+    "timeline",
+    "react",
+    "component"
+  ],
+  "author": "Maximillian Xavier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximillianfx/react-timeline/issues"
+  },
+  "homepage": "https://github.com/maximillianfx/react-timeline#readme",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "style-loader": "^1.2.1"
+  }
+}

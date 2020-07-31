@@ -2,9 +2,9 @@ var path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './src/index.js',
+    entry: './src/react-timeline.jsx',
     output: {
-        path: path.resolve('dist'),
+        path: path.resolve('lib'),
         filename: 'ReactTimeline.js',
         libraryTarget: 'commonjs2'
     },

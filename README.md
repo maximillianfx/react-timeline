@@ -6,6 +6,7 @@ Timeline component to React library
 [![npm download][download-image]][download-url]
 [![Dependencies][david-image]](david-url)
 [![DevDependencies][david-dev-image]][david-dev-url]
+[![Build Status](https://travis-ci.org/maximillianfx/react-timeline.svg?branch=master)][travis-url]
 
 [npm-image]: http://img.shields.io/npm/v/ac-react-timeline.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/ac-react-timeline
@@ -15,6 +16,7 @@ Timeline component to React library
 [david-image]: https://david-dm.org/maximillianfx/react-timeline/status.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/maximillianfx/react-timeline?type=dev
 [david-dev-image]: https://david-dm.org/maximillianfx/react-timeline/dev-status.svg?style=flat-square
+[travis-url]: (https://travis-ci.org/maximillianfx/react-timeline)
 
 ## Screenshot
 

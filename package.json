@@ -34,6 +34,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.2.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.4.2",
     "path": "^0.12.7",
     "react": "^16.13.1",
@@ -48,5 +49,10 @@
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "style-loader": "^1.2.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
   }
 }
